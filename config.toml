@@ -1,5 +1,13 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://trynaeat.github.io/zomboid-modeling-docs/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'hugo-theme-learn'
 publishdir = 'docs/'
+[Languages]
+[Languages.en]
+title = 'Zomboid Modeling Docs'
+weight = 1
+landingPageURL = '/zomboid-modeling-docs'
+landingPageName = "<i class='fas fa-home'></i> Home"
+[Languages.es]
+title = 'Documentos de Project Zomboid'
