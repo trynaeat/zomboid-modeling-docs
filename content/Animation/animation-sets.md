@@ -80,6 +80,6 @@ You'll see I've overridden the second condition, to instead check that the Cross
 
 When you've created your Animation Set, you want to place it in your mods `media/AnimSets/player` or `media/AnimSets/player-vehice` folder.
 
-![sample_anim_6](/images/sample_anim_6.PNG)
+![sample_anim_6](../../images/sample_anim_6.PNG)
 
 Note that if you tweak your sets while the game is running, it will reload the xml file so you don't need to reboot the game every time. If you add a new one though, you'll need to reboot the game.

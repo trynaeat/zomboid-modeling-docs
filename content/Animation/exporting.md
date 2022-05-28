@@ -17,11 +17,11 @@ This is a simple method, but it's important to make sure you only have the singl
 
 Let's go with this method. Say you have an action called BobHC_Sample_Anim:
 
-![sample_anim_1](/images/sample_anim_1.PNG?width=800px)
+![sample_anim_1](../../images/sample_anim_1.PNG?width=800px)
 
 Make your export settings look like this (remember to select everything first). Note All Actions is checked.
 
-![sample_anim_2](/images/sample_anim_2.PNG)
+![sample_anim_2](../../images/sample_anim_2.PNG)
 
 **TIP**: Hit the + at the top and give this preset a name/save it for later use.
 
