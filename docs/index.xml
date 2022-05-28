@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content in Home on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 May 2022 15:22:44 -0400</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Files</title>
+      <link>http://example.org/animation/files/</link>
+      <pubDate>Sat, 28 May 2022 15:22:44 -0400</pubDate>
+      
+      <guid>http://example.org/animation/files/</guid>
+      <description>The following files are used as a starting template to create animations for Project Zomboid. They contain the armature along with a character mesh which you can use to start animating.
+The .fbx file was grabbed from the Project Zomboid official discord and is a generic file you should be able to use in the modeling software of your choice.
+The .blend file is a slight tweak of the .fbx file to give an instant start template if you&amp;rsquo;re working with Blender.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>http://example.org/animation/getting-started/</link>
+      <pubDate>Sat, 28 May 2022 15:22:44 -0400</pubDate>
+      
+      <guid>http://example.org/animation/getting-started/</guid>
+      <description>The following guide will assume you&amp;rsquo;re using Blender 3.1, although the .fbx file on the previous page can be used in pretty much any software of your choice.
+First, download the .blend file from the Files page.
+Open it up in blender. You&amp;rsquo;ll see a male character mesh and matching armature. From this you can start animating! If you&amp;rsquo;re completely new to animating, there are tons of guides out there for Blender on youtube.</description>
+    </item>
+    
+    <item>
+      <title>Exporting</title>
+      <link>http://example.org/animation/exporting/</link>
+      <pubDate>Sat, 28 May 2022 15:22:44 -0400</pubDate>
+      
+      <guid>http://example.org/animation/exporting/</guid>
+      <description>Zomboid supports the .fbx and .x formats for models/animations. Since .fbx is a much newer and more flexible format supported by many tools, I suggest using .fbx at all times.
+To export your animation, first select everything in the scene (that means the armature AND Body mesh). Now, there are a couple of options for how you want your action exported&amp;hellip;
+Export NLA You can push the actions you want to NLA strips, then in the export settings choose to export NLA.</description>
+    </item>
+    
+    <item>
+      <title>Putting Your Animation in Project Zomboid</title>
+      <link>http://example.org/animation/placing-in-pz/</link>
+      <pubDate>Sat, 28 May 2022 15:22:44 -0400</pubDate>
+      
+      <guid>http://example.org/animation/placing-in-pz/</guid>
+      <description>In your mod&amp;rsquo;s folder, if you don&amp;rsquo;t yet have a directory called anims_X, create one. Creat a subfolder called Bob, then place your .fbx file into it.
+Now, the first thing I like to do is make sure that my base animation is getting loaded correctly by the game. Launch your game in debug mode (add -debug to launch options in steam), load up a single player game and then open up the debug menu.</description>
+    </item>
+    
+    <item>
+      <title>Animation Sets</title>
+      <link>http://example.org/animation/animation-sets/</link>
+      <pubDate>Sat, 28 May 2022 15:22:44 -0400</pubDate>
+      
+      <guid>http://example.org/animation/animation-sets/</guid>
+      <description>The next thing you need to do is create your animation sets. These essentially tell the game when/how to play your animation based on certain conditions. They are simply .xml files you can edit with the text-editor of your choice.
+This part can involve a bit of trial and error and I suggest searching the vanilla games files to find an action similar to the one you&amp;rsquo;re making which you can adapt.</description>
+    </item>
+    
+  </channel>
+</rss>

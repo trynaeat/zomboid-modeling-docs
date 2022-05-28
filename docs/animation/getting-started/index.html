@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.99.1" />
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+
+    <title>Getting Started :: My New Hugo Site</title>
+
+    
+    <link href="/css/nucleus.css?1653769518" rel="stylesheet">
+    <link href="/css/fontawesome-all.min.css?1653769518" rel="stylesheet">
+    <link href="/css/hybrid.css?1653769518" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1653769518" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1653769518" rel="stylesheet">
+    <link href="/css/auto-complete.css?1653769518" rel="stylesheet">
+    <link href="/css/atom-one-dark-reasonable.css?1653769518" rel="stylesheet">
+    <link href="/css/theme.css?1653769518" rel="stylesheet">
+    <link href="/css/tabs.css?1653769518" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1653769518" rel="stylesheet">
+    
+    
+
+    <script src="/js/jquery-3.3.1.min.js?1653769518"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+  </head>
+  <body class="" data-url="/animation/getting-started/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <img src="/images/zomboid_logo.png" />
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="/js/lunr.min.js?1653769518"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1653769518"></script>
+<script type="text/javascript">
+    
+        var baseurl = "http:\/\/example.org\/";
+    
+</script>
+<script type="text/javascript" src="/js/search.js?1653769518"></script>
+
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li>
+            <a class="padding" href='/'><i class='fas fa-home'></i> Home</a>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/animation/" title="Animations" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="/animation/">
+          Animations
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/animation/files/" title="Files" class="dd-item ">
+        <a href="/animation/files/">
+        Files
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/animation/getting-started/" title="Getting Started" class="dd-item active">
+        <a href="/animation/getting-started/">
+        Getting Started
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/animation/exporting/" title="Exporting" class="dd-item ">
+        <a href="/animation/exporting/">
+        Exporting
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/animation/placing-in-pz/" title="Putting Your Animation in Project Zomboid" class="dd-item ">
+        <a href="/animation/placing-in-pz/">
+        Putting Your Animation in Project Zomboid
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/animation/animation-sets/" title="Animation Sets" class="dd-item ">
+        <a href="/animation/animation-sets/">
+        Animation Sets
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/modeling/" title="Modeling" class="dd-item
+        
+        
+        
+        ">
+      <a href="/modeling/">
+          Modeling
+          
+      </a>
+      
+      
+    </li>
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p>Built with <a href="https://github.com/matcornic/hugo-theme-learn"><i class="fas fa-heart"></i></a> from <a href="https://getgrav.org">Grav</a> and <a href="https://gohugo.io/">Hugo</a></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>Home</a> > <a href='/animation/'>Animations</a> > Getting Started
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#tips">Tips</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Getting Started
+            </h1>
+          
+
+        
+
+
+<p>The following guide will assume you&rsquo;re using Blender 3.1, although the .fbx file on the previous page can be used in pretty much any software of your choice.</p>
+<p>First, download the .blend file from the <a href="/animation/files/" title="Files">Files</a> page.</p>
+<p>Open it up in blender. You&rsquo;ll see a male character mesh and matching armature. From this you can start animating! If you&rsquo;re completely new to animating, there are tons of guides out there for Blender on youtube. Any of the ones for v2.8+ will translate very easily to the latest version of Blender. I&rsquo;d suggest you check out these 2 in particular:</p>
+<ul>
+<li><a href="https://youtu.be/zp6kCe5Kmf4">Animation Part 1</a></li>
+<li><a href="https://youtu.be/nlT9rYcIRzU">Animation Part 4</a></li>
+</ul>
+<p>The first link gives some basic explanation on creating keyframes. The second one goes a little more in depth on bones/rigs and shows creating a simple walk cycle.</p>
+<p>Just follow the normal process for creating an animation in Blender, and spend as much time as you need here refining the animation so it looks exactly how you want before placing it into Zomobid.</p>
+<h2 id="tips">Tips</h2>
+<ul>
+<li>Keep your movements to ONLY rotations (with the exception of some translation of the spine to move the entire body). Don&rsquo;t scale or translate bones around or you&rsquo;ll get wonky results.</li>
+<li>You can set the length of the animation in frames in the timeline editor, then hit Space and loop your animation to see how it looks.</li>
+<li>Crtl + Tab with the armature selected to switch beteween Object/Pose modes quickly</li>
+<li>Hit the &ldquo;record&rdquo; button on the timeline editor before switching back over to the action editor. This will turn on auto-keyframe mode so any time you move bones it will automatically create a new keyframe at your current position on the animation timeline. If you don&rsquo;t want auto-keyframe mode, you&rsquo;ll have to hit I -&gt; Location &amp; Rotation every time to create the frame.</li>
+</ul>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="/animation/files/" title="Files"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="/animation/exporting/" title="Exporting" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js?1653769518"></script>
+    <script src="/js/perfect-scrollbar.min.js?1653769518"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1653769518"></script>
+    <script src="/js/jquery.sticky.js?1653769518"></script>
+    <script src="/js/featherlight.min.js?1653769518"></script>
+    <script src="/js/highlight.pack.js?1653769518"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom-3.6.0.js?1653769518"></script>
+    <script src="/js/learn.js?1653769518"></script>
+    <script src="/js/hugo-learn.js?1653769518"></script>
+    
+        
+            <script src="/mermaid/mermaid.js?1653769518"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  </body>
+</html>
+
